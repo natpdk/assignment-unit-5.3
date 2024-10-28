@@ -38,6 +38,7 @@ console.log("Updated array:", myCollection);
 console.log("New item:", addedItem6); 
 
 function showCollection(collection){
+  
   for (i = 0; i < collection.length; i++) {
     console.log(`${collection[i][0]} by ${collection[i][1]}, published in ${collection[i][2]}`)
   }
@@ -45,6 +46,9 @@ function showCollection(collection){
 
 showCollection(myCollection)
 
+function findByArtist(collection){
+  
+}
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
